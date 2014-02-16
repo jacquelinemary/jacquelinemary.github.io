@@ -1,3 +1,24 @@
 body {
   background: #facade;
 }
+iframe {
+  display: none;
+}
+.clicked iframe {
+  display: block;
+}
+.vid.clicked {
+  display: block;
+  height: 315px;
+  width: 560px;
+  border-radius: 0px;
+  padding: 30px;
+}
+.vid {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  display: inline-block;
+  border-radius: 100px;
+  margin: 10px;
+}
