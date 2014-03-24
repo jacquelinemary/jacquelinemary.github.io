@@ -1,8 +1,5 @@
 $(".vid").on("click", function(e) {
-  if ($(this).hasClass("clicked")) {
-    $(this).removeClass("clicked")
-  }
-  else {
-    $(this).addClass("clicked")
-  }
+  $(this).toggleClass("clicked")
+  $(".vid").toggleClass("hidden")
+  $(this).children().first().toggleClass("hidden")
 });
