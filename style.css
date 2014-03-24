@@ -1,11 +1,17 @@
 body {
   background: #facade;
+  text-align: center;
 }
 iframe {
   display: none;
 }
 .clicked iframe {
   display: block;
+  margin: auto;
+}
+h2 {
+  padding-top: 45px;
+  display: inline-block;
 }
 .vid.clicked {
   display: block;
@@ -20,5 +26,5 @@ iframe {
   background-color: red;
   display: inline-block;
   border-radius: 100px;
-  margin: 10px;
+  margin: 15px;
 }
